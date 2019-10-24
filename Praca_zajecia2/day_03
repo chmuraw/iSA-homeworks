@@ -1,0 +1,3 @@
+wiek = input("Ile masz lat?")
+zwierzaki = input("Ile masz kotow? ")
+
