@@ -130,7 +130,7 @@
 #print(lista)
 
 #LISTA ZAKUPOW NA GRILLA
-zakupy = ["cukinia", "piwko", "chipsy", "wegiel", "kubeczki"]
+#zakupy = ["cukinia", "piwko", "chipsy", "wegiel", "kubeczki"]
 # print(zakupy)
 # #
 # # zakupy.append("talerzyki")
