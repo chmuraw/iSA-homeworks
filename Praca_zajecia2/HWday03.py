@@ -23,30 +23,57 @@
 
 # Zadanie 2
 # Sprawdzenie pierwszej i ostatniej cyfry podanej liczby
-# liczba = input("Proszę podać liczbę: ")
-# first_digit = liczba
-# while(liczba >= 10):
-#     liczba = liczba // 10
-# print("Pierwsza cyfra liczby {0} = {1}".format(liczba, first_digit))
+
+# liczba = int(input("Prosze podac liczbe: "))
+# def pierwsza_cyfra(liczba):
+#     # Dzieli przez 10 dopóki nie zostanie ostatnia cyfra
+#     while liczba >= 10:
+#         liczba = liczba / 10;
+#
+#         # zwraca pierwszą cyfrę
+#     return int(liczba)
+#
+# # Ostatnia cyfra
+# def ostatnia_cyfra(liczba):
+#     # reszta z dzielenia przez 10 zwróci ostatnią cyfrę
+#     # zwraca ostatnią cyfrę
+#     return (liczba % 10)
+#
+# # podanie cyfr
+# print("Pierwsza cyfra to", pierwsza_cyfra(liczba))
+# print("Ostatnia cyfra to", ostatnia_cyfra(liczba))
 
 
-def pierwsza_cyfra(liczba):
-    # Dzieli przez 10 dopóki nie zostanie ostatnia cyfra
-    while liczba >= 10:
-        liczba = liczba / 10;
+# Zadanie 5
+# Sprawdzenie czy podany rok jest przestępny
+# Rok jest przestepny jesli jest podzielny przez 4, nie podzielny przez 100, ale podzielny przez 400
+# rok = int(input("Prosze podac rok: "))
+# if (rok % 4) == 0:
+#     if (rok % 100) == 0:
+#         if (rok % 400) == 0:
+#             print("{0} jest rokiem przestępnym".format(rok))
+#         else:
+#             print("{0} nie jest rokiem przestępnym".format(rok))
+#     else:
+#         print("{0} jest rokiem przestępnym".format(rok))
+# else:
+#     print("{0} nie jest rokiem przestepnym".format(rok))
 
-        # zwraca pierwszą cyfrę
-    return int(liczba)
+
+# Zadanie 9
+# Kalkulator wieku psa
+
+# lata = int(input("Prosze podac wiek psa w latach ludzkich: "))
+# if lata < 0:
+#     print("Pies ma 0 lat w psich latach")
+#     exit()
+# # dwa pierwsze lata *10.5
+# elif lata <= 2:
+#     wiek_psa = lata * 10.5
+# else:
+#     wiek_psa = 21 + (lata - 2) * 4
+# print("Pies ma {0} lat w psich latach".format(wiek_psa))
 
 
-# Find the last digit
-def lastDigit(liczba):
-    # reszta z dzielenia przez 10 zwróci ostatnią cyfrę
-    # zwraca ostatnią cyfrę
-    return (liczba % 10)
 
 
-# Driver Code
-n = 98562;
-print(firstDigit(n))
-print(lastDigit(n))
