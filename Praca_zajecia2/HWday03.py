@@ -2,25 +2,25 @@
 # # ======================================================================
 
 # # Zadanie 1
-# # Zamiana z Cel na Fah
-# # F = (C * 9/5) + 32
-# Cel = int(input("Podaj temperaturę w skali Cejslujsza: "))
+# Zamiana z Cel na Fah
+# F = (C * 9/5) + 32
+# Cel = float(input("Podaj temperaturę w skali Cejslujsza: "))
 #
 # # print(Cel)
 #
 # Fah = Cel * 9/5 + 32
 # print("Fah = Cel * 9/5 +32")
-# print(Cel, "stopni Celsjusza to ", Fah, "stopni w skali Fahrenheita")
+# print(Cel, "stopni Celsjusza to ", rount(Fah, 2), "stopni w skali Fahrenheita")
 
 # #  Zamiana z Fah na Cel
 # #  C = (F - 32) / 9/5
-# Fah = int(input("Podaj temperaturę w skali Fahrenheita: "))
+# Fah = float(input("Podaj temperaturę w skali Fahrenheita: "))
 #
 # # print(Fah)
 #
 # Cel = (Fah - 32) * 5/9
 # print("Cel = (Fah - 32) / 9/5 ")
-# print(Fah, "stopni Fahrenheita to ", Cel, "stopni w skali Celsjusza")
+# print(Fah, "stopni Fahrenheita to ", round(Cel, 2), "stopni w skali Celsjusza")
 
 # # ======================================================================
 
