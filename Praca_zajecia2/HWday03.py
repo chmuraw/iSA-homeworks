@@ -1,5 +1,5 @@
 # coding=utf-8
-# Zadanie
+# Zadanie 1
 # Zamiana z Cel na Fah
 # F = (C * 9/5) + 32
 # Cel = int(input("Podaj temperaturę w skali Cejslujsza: "))
@@ -23,25 +23,18 @@
 
 # Zadanie 2
 # Sprawdzenie pierwszej i ostatniej cyfry podanej liczby
+#Prośba o podanie liczby i zdefiniowanie jej jako int
 
-# liczba = int(input("Prosze podac liczbe: "))
-# def pierwsza_cyfra(liczba):
-#     # Dzieli przez 10 dopóki nie zostanie ostatnia cyfra
-#     while liczba >= 10:
-#         liczba = liczba / 10;
+# liczba = input("Prosze podac liczbe: ")
 #
-#         # zwraca pierwszą cyfrę
-#     return int(liczba)
-#
-# # Ostatnia cyfra
-# def ostatnia_cyfra(liczba):
-#     # reszta z dzielenia przez 10 zwróci ostatnią cyfrę
-#     # zwraca ostatnią cyfrę
-#     return (liczba % 10)
-#
-# # podanie cyfr
-# print("Pierwsza cyfra to", pierwsza_cyfra(liczba))
-# print("Ostatnia cyfra to", ostatnia_cyfra(liczba))
+# if liczba.isdigit() == False:
+#    print("Prosze podac liczbe calkowita")
+# else:
+#     pierwsza_cyfra = liczba[0]
+#     ostatnia_cyfra = liczba[-1]
+#     print("Pierwsza cyfra to {0}".format(pierwsza_cyfra))
+#     print("Ostatnia cyfra to {0}".format(ostatnia_cyfra))
+
 
 
 # Zadanie 5
@@ -73,6 +66,16 @@
 # else:
 #     wiek_psa = 21 + (lata - 2) * 4
 # print("Pies ma {0} lat w psich latach".format(wiek_psa))
+
+
+# Zadanie 8
+# wysokosc = int(input("Prosze podac wysokosc piramidy: "))
+# for i in range (0, wysokosc):
+#     for j in range(0, wysokosc - i):
+#         print(end=" ")
+#     for j in range(0, (i * 2)-1):
+#         print("#", end=" ")
+#     print()
 
 
 
