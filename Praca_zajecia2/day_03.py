@@ -130,7 +130,7 @@
 #print(lista)
 
 #LISTA ZAKUPOW NA GRILLA
-#zakupy = ["cukinia", "piwko", "chipsy", "wegiel", "kubeczki"]
+zakupy = ["cukinia", "piwko", "chipsy", "wegiel", "kubeczki"]
 # print(zakupy)
 # #
 # # zakupy.append("talerzyki")
@@ -185,3 +185,12 @@
 
 
 
+for przedmiot in zakupy:
+    if przedmiot == 'piwko':
+        znak ='[x]'
+    else:
+        znak = '[]'
+print(znak + przedmiot)
+
+    #print("kupic: " + przedmiot)
+    #print("[] " + przedmiot)
