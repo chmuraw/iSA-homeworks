@@ -1,7 +1,9 @@
 # coding=utf-8
-# Zadanie 1
-# Zamiana z Cel na Fah
-# F = (C * 9/5) + 32
+# # ======================================================================
+
+# # Zadanie 1
+# # Zamiana z Cel na Fah
+# # F = (C * 9/5) + 32
 # Cel = int(input("Podaj temperaturę w skali Cejslujsza: "))
 #
 # # print(Cel)
@@ -10,8 +12,8 @@
 # print("Fah = Cel * 9/5 +32")
 # print(Cel, "stopni Celsjusza to ", Fah, "stopni w skali Fahrenheita")
 
-# Zamiana z Fah na Cel
-# C = (F - 32) / 9/5
+# #  Zamiana z Fah na Cel
+# #  C = (F - 32) / 9/5
 # Fah = int(input("Podaj temperaturę w skali Fahrenheita: "))
 #
 # # print(Fah)
@@ -20,10 +22,11 @@
 # print("Cel = (Fah - 32) / 9/5 ")
 # print(Fah, "stopni Fahrenheita to ", Cel, "stopni w skali Celsjusza")
 
+# # ======================================================================
 
-# Zadanie 2
-# Sprawdzenie pierwszej i ostatniej cyfry podanej liczby
-#Prośba o podanie liczby i zdefiniowanie jej jako int
+# # Zadanie 2
+# # Sprawdzenie pierwszej i ostatniej cyfry podanej liczby
+# #Prośba o podanie liczby i zdefiniowanie jej jako int
 
 # liczba = input("Prosze podac liczbe: ")
 #
@@ -35,19 +38,37 @@
 #     print("Pierwsza cyfra to {0}".format(pierwsza_cyfra))
 #     print("Ostatnia cyfra to {0}".format(ostatnia_cyfra))
 
+# # ======================================================================
 
+## Zadanie 3 - drukuje prostokat o zadanych wymiarach
 
-# Zadanie 4
-# Konwersja liczby z zapisu binarnego na dziesietny
+# wysokosc = int(input("Prosze podac wysokosc prostokata: "))
+# szerokosc = int(input("Prosze podac szerokosc prostokata: "))
+#
+# # Sprawdzenie poprawnosci wprowadzonych danych
+# if wysokosc <= 0 or szerokosc <= 0:
+#     print("Prosze podac wartosci wieksze od 0")
+# # Wydrukowanie pierwszego rzedu
+# else:
+#     print("+" + szerokosc * " -" + "+")
+#
+# for i in range(0, wysokosc):
+#     print("|" + szerokosc*"  " + "|")
+# print("+" + szerokosc * " -" + "+")
+
+# # ======================================================================
+
+# #  Zadanie 4
+# #  Konwersja liczby z zapisu binarnego na dziesietny
 # liczba_binarna = input("Prosze podac liczbe binarna: ")
 # liczba_dziesietna = int(liczba_binarna, 2)
 # print(liczba_dziesietna)
 
+# # ======================================================================
 
-
-# Zadanie 5
-# Sprawdzenie czy podany rok jest przestępny
-# Rok jest przestepny jesli jest podzielny przez 4, nie podzielny przez 100, ale podzielny przez 400
+# #  Zadanie 5
+# #  Sprawdzenie czy podany rok jest przestępny
+# #  Rok jest przestepny jesli jest podzielny przez 4, nie podzielny przez 100, ale podzielny przez 400
 # rok = int(input("Prosze podac rok: "))
 # if (rok % 4) == 0:
 #     if (rok % 100) == 0:
@@ -60,10 +81,10 @@
 # else:
 #     print("{0} nie jest rokiem przestepnym".format(rok))
 
+# # ======================================================================
 
-
-# Zadanie 8
-# Drukowanie piramidy o zadanej wysokości
+# #  Zadanie 8
+# #  Drukowanie piramidy o zadanej wysokości
 # wysokosc = int(input("Prosze podac wysokosc piramidy: "))
 # for i in range (0, wysokosc):
 #     for j in range(0, wysokosc - i):
@@ -72,10 +93,10 @@
 #         print("#", end=" ")
 #     print()
 
+# # ======================================================================
 
-
-# Zadanie 9
-# Kalkulator wieku psa
+# #  Zadanie 9
+# #  Kalkulator wieku psa
 
 # lata = int(input("Prosze podac wiek psa w latach ludzkich: "))
 # if lata < 0:
@@ -87,7 +108,6 @@
 # else:
 #     wiek_psa = 21 + (lata - 2) * 4
 # print("Pies ma {0} lat w psich latach".format(wiek_psa))
-
 
 
 
