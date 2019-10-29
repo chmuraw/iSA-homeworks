@@ -37,6 +37,14 @@
 
 
 
+# Zadanie 4
+# Konwersja liczby z zapisu binarnego na dziesietny
+# liczba_binarna = input("Prosze podac liczbe binarna: ")
+# liczba_dziesietna = int(liczba_binarna, 2)
+# print(liczba_dziesietna)
+
+
+
 # Zadanie 5
 # Sprawdzenie czy podany rok jest przestępny
 # Rok jest przestepny jesli jest podzielny przez 4, nie podzielny przez 100, ale podzielny przez 400
@@ -53,6 +61,19 @@
 #     print("{0} nie jest rokiem przestepnym".format(rok))
 
 
+
+# Zadanie 8
+# Drukowanie piramidy o zadanej wysokości
+# wysokosc = int(input("Prosze podac wysokosc piramidy: "))
+# for i in range (0, wysokosc):
+#     for j in range(0, wysokosc - i):
+#         print(end=" ")
+#     for j in range(0, (i * 2)-1):
+#         print("#", end=" ")
+#     print()
+
+
+
 # Zadanie 9
 # Kalkulator wieku psa
 
@@ -67,15 +88,6 @@
 #     wiek_psa = 21 + (lata - 2) * 4
 # print("Pies ma {0} lat w psich latach".format(wiek_psa))
 
-
-# Zadanie 8
-# wysokosc = int(input("Prosze podac wysokosc piramidy: "))
-# for i in range (0, wysokosc):
-#     for j in range(0, wysokosc - i):
-#         print(end=" ")
-#     for j in range(0, (i * 2)-1):
-#         print("#", end=" ")
-#     print()
 
 
 
