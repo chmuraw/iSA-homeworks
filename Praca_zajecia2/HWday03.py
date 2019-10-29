@@ -10,7 +10,7 @@
 #
 # Fah = Cel * 9/5 + 32
 # print("Fah = Cel * 9/5 +32")
-# print(Cel, "stopni Celsjusza to ", rount(Fah, 2), "stopni w skali Fahrenheita")
+# print(Cel, "stopni Celsjusza to ", round(Fah, 2), "stopni w skali Fahrenheita")
 
 # #  Zamiana z Fah na Cel
 # #  C = (F - 32) / 9/5
@@ -27,7 +27,7 @@
 # # Zadanie 2
 # # Sprawdzenie pierwszej i ostatniej cyfry podanej liczby
 # #Prośba o podanie liczby i zdefiniowanie jej jako int
-
+#
 # liczba = input("Prosze podac liczbe: ")
 #
 # if liczba.isdigit() == False:
@@ -40,8 +40,8 @@
 
 # # ======================================================================
 
-## Zadanie 3 - drukuje prostokat o zadanych wymiarach
-
+# # Zadanie 3 - drukuje prostokat o zadanych wymiarach
+#
 # wysokosc = int(input("Prosze podac wysokosc prostokata: "))
 # szerokosc = int(input("Prosze podac szerokosc prostokata: "))
 #
@@ -97,7 +97,7 @@
 
 # #  Zadanie 9
 # #  Kalkulator wieku psa
-
+#
 # lata = int(input("Prosze podac wiek psa w latach ludzkich: "))
 # if lata < 0:
 #     print("Pies ma 0 lat w psich latach")
